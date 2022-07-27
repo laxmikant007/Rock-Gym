@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Gym</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" class="style">
+    <style>
+        body {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/victor-freitas-WvDYdXDzkhs-unsplash\ -\ Copy.jpg')
+        }
+
+        .left {
+            display: inline-block;
+
+            position: absolute;
+            left: 51px;
+            top: 15px;
+        }
+
+        .left img {
+            width: 75px;
+            filter: invert(100%);
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+
+
+        }
+
+        .right {
+            position: absolute;
+            right: 47px;
+            top: 37px;
+            display: inline-block;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 24px;
+        }
+
+        .navbar li a {
+            color: white !important;
+            text-decoration: none !important;
+            padding: 34px 18px;
+
+        }
+
+        .navbar li:hover,
+        .navbar li.active {
+
+            text-decoration: underline;
+            color: aqua;
+
+
+        }
+
+        .btn {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            background-color: #0676b8;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 23px;
+            padding: 3px 4px;
+            cursor: pointer;
+            border-radius: 10px;
+            width: 142px;
+        }
+
+        .btn:hover {
+            background-color: green;
+        }
+
+        .container {
+            border: 7px solid white;
+            margin: 70px 555px;
+            padding: 62px;
+            width: 39%;
+            border-radius: 100px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            text-align: center;
+            display: block;
+            width: 460px;
+            padding: 7px;
+            border: 2px solid green;
+            margin: 7px auto;
+            border-radius: 20px;
+            font-size: 20px;
+        }
+
+        .container h1 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 77%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div style=" line-height :0px ; font-size :22px ; ">Rock Gym</div>
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness Score</a></li>
+                <li><a href="#">Contac Us</a></li>
+
+
+
+
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email US</button>
+
+        </div>
+
+
+
+    </header>
+    <div class="container">
+        <h1>Join the Best Gym of Bikaner!</h1>
+        <form action="action.php">
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your Phone Number">
+            </div>
+            <div class="form-group">
+                <input type="text" Name=" " placeholder=" Enter your Email ID">
+            </div>
+            <button class="btn">Submit!</button>
+
+
+        </form>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
